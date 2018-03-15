@@ -26,7 +26,7 @@ ul.nav-bar {
 .landing-page-background {
 	background-color: #FFE4D8;
 
-	height: 500px;
+	height: 490px;
 	width: 320px;
 }
 
@@ -57,5 +57,41 @@ ul.nav-bar {
 }
 
 .main-article {
-	
+	width: 300px;
+	margin: 0 auto; /* Applying center property here, so that main-article-image stays centered */
+}
+
+.main-article h3 {
+	letter-spacing: 1px;
+	/*padding-left: 10px;*/
+	padding-bottom: 15px;
+	text-transform: capitalize;
+
+}
+
+.main-article-image {
+	background-image: url("/images/find-best-lipstick-color.jpg");
+	margin: 0 auto;
+	/*text-align: center;*/
+
+	height: 200px;
+	/*width: 300px;*/
+}
+
+.subheader {
+	color: gray;
+	font-size: 8px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	padding-left: 5px;
+}
+
+.main-article h4 { 
+	letter-spacing: 1px;
+	line-height: 1.6;
+	text-transform: capitalize;
+
+	position: relative;
+	top: -10px;
 }
