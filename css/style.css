@@ -7,3 +7,55 @@ ul.nav-bar {
 .nav-bar li {
 	display: inline;
 }
+
+.mobile-border-dim {
+	height: 1334px;
+	width: 320px;
+
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
+.mobile-nav-bar {
+	height: 60px;
+	width: 320px;
+
+	border-bottom: 2px solid gray;
+}
+
+.landing-page-background {
+	background-color: #FFE4D8;
+
+	height: 500px;
+	width: 320px;
+}
+
+.mobile-landing-page-photo {
+	/*background-position: center;*/
+	background-image: url("/images/succulent-garden.jpg");
+	margin: 0 auto;
+
+	position: relative;
+	top: 20px;
+
+	height: 213px;
+	width: 300px;
+
+}
+
+.mobile-secondary-photo {
+	background-image: url("/images/color-pencil-drawing.jpg");
+	margin: 0 auto;
+	margin-top: 20px;
+
+	position: relative;
+	top: 20px;
+
+	height: 213px;
+	width: 300px;
+
+}
+
+.main-article {
+	
+}
