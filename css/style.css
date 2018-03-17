@@ -50,7 +50,7 @@ main {
 	top: 40px;
 
 	height: 400px;
-	width: 40%;
+	width: 120%;
 }
 
 main > span {
@@ -62,6 +62,13 @@ main > span {
 
 	text-transform: uppercase;
 }
+
+.index-image-one {
+	background-image: url("/images/cup-of-tea.jpg");
+	/*float: right;
+	height: 400px;
+	width: 30%;
+}*/
 
 /* Mobile HTML page */
 
