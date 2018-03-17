@@ -1,12 +1,52 @@
+/* Index HTML page */ 
+
 ul.nav-bar {
 	list-style-type: none;
-	padding-left: 0;
 	margin-left: 0;
+	padding-left: 200px;
+	padding-top: 15px;
+
+	height: 50px;
+	/*width: 320px;*/
+
+	border-bottom: 2px solid white;
+
 }
 
 .nav-bar li {
 	display: inline;
+	letter-spacing: 0.3em;
+	padding: 15px 30px 0 30px;
+/*	padding-left: 30px;
+	padding-right: 30px;*/
+	text-transform: uppercase;
+
 }
+
+.nav-bar a {
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+section {
+	background-color: #FFE4D8;
+	margin: 0 auto;
+
+	height: 600px;
+	width: 90%;
+}
+
+main {
+	background-color: #fff;
+	margin-left: 20px;
+	position: relative;
+	top: 40px;
+
+	height: 500px;
+	width: 40%;
+}
+
+/* Mobile HTML page */
 
 .mobile-border-dim {
 	height: 1334px;
@@ -90,6 +130,7 @@ ul.nav-bar {
 .main-article h4 { 
 	letter-spacing: 1px;
 	line-height: 1.6;
+	text-decoration: none;
 	text-transform: capitalize;
 
 	position: relative;
