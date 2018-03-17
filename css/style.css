@@ -48,9 +48,10 @@ main {
 	position: relative;
 	text-align: center;
 	top: 40px;
+	z-index: 2;
 
 	height: 400px;
-	width: 120%;
+	width: 100%;
 }
 
 main > span {
@@ -63,12 +64,16 @@ main > span {
 	text-transform: uppercase;
 }
 
-.index-image-one {
-	background-image: url("/images/cup-of-tea.jpg");
-	/*float: right;
+th.index-image-one {
+	background-image: url("/images/cup-of-tea-2.jpg");
+	background-repeat: no-repeat;
+	/*float: right;*/
 	height: 400px;
-	width: 30%;
-}*/
+	width: 300px;
+
+	position: relative;
+	top: 40px;
+}
 
 /* Mobile HTML page */
 
