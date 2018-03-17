@@ -96,6 +96,16 @@ th.index-image-two {
 	top: 40px;
 }
 
+th.index-image-three {
+	background-image: url("/images/love-coaster.jpg");
+	background-repeat: no-repeat;
+	height: 400px;	
+	width: 250px;
+
+	position: relative;
+	top: 40px;
+}
+
 /* Mobile HTML page */
 
 .mobile-border-dim {
