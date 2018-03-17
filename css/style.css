@@ -75,6 +75,27 @@ th.index-image-one {
 	top: 40px;
 }
 
+th.white-border {
+	background-color: #fff;
+	height: 400px;
+	width: 3px;
+
+	position: relative;
+	top: 38px;
+	right: 2px;
+
+}
+
+th.index-image-two {
+	background-image: url("/images/pink-cake.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 300px;
+
+	position: relative;
+	top: 40px;
+}
+
 /* Mobile HTML page */
 
 .mobile-border-dim {
